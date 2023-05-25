@@ -1,0 +1,75 @@
+Pets {
+
+    position: relative;
+    width: 2146px;
+    height: 797px;
+    left: -73px;
+    top: 6240px;
+    
+}
+
+Pets .center {
+    /*display: flex;
+    flex-direction: column;
+    align-items: flex-start;*/
+    padding: 0px;
+    gap: 16px;
+    
+    position: absolute;
+    width: 762px;
+    height: 457.38px;
+    left: 181px;
+    top: 6385px;
+}
+
+Pets .overlap-group {
+    height: 805px;
+    left: 72px;
+    position: relative;
+    top: -4px;
+    width: 1921px;
+}
+
+Pets .small-logo {
+    width: 96px;
+    height: 78.38px;
+    position: absolute;
+    
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    /*background: url(../../assets/Logo_4_3_.svg);*/
+}
+
+Pets .background {
+    position: absolute;
+    width: 1920px;
+    height: 797px;
+    left: -1px;
+    top: 6240px;
+
+}
+
+Pets .large-logo {
+    width: 512px;
+    height: 446.92px;
+    position: absolute;
+    left: 1561px;
+    top: 6589px;
+   /* background: url(../../assets/Logo_4_3_.svg);*/
+    
+    opacity: 0.45;
+}
+
+Pets .image {
+    position: absolute;
+    width: 2064px;
+    height: 797px;
+    left: -73px;
+    top: 6240px;
+    object-fit: cover;
+
+   /* background: url(../../assets/Rectangle\ 2.png);*/
+    filter: blur(2px);
+}
