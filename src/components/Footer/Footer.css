@@ -1,7 +1,10 @@
 footer {
     height: 662px;
     width: 1920px;
+    left: 0px;
+    top: 7037px;
     background: #ffffff;
+    position: absolute;
 
 }
 

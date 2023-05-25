@@ -1,17 +1,16 @@
-Pets {
+#Pets {
 
-    position: relative;
+    position: absolute;
     width: 2146px;
     height: 797px;
     left: -73px;
     top: 6240px;
-    
 }
 
-Pets .center {
-    /*display: flex;
+#Pets .center {
+    display: flex;
     flex-direction: column;
-    align-items: flex-start;*/
+    align-items: flex-start;
     padding: 0px;
     gap: 16px;
     
@@ -19,18 +18,18 @@ Pets .center {
     width: 762px;
     height: 457.38px;
     left: 181px;
-    top: 6385px;
+    top: 145px;
 }
 
-Pets .overlap-group {
+#Pets .overlap-group {
     height: 805px;
     left: 72px;
-    position: relative;
+    position: absolute;
     top: -4px;
     width: 1921px;
 }
 
-Pets .small-logo {
+#Pets .small-logo {
     width: 96px;
     height: 78.38px;
     position: absolute;
@@ -40,34 +39,32 @@ Pets .small-logo {
     order: 1;
     flex-grow: 0;
     /*background: url(../../assets/Logo_4_3_.svg);*/
+    top: 145px;
+    left: 182px;
 }
 
-Pets .background {
+#Pets .background {
     position: absolute;
     width: 1920px;
     height: 797px;
-    left: -1px;
-    top: 6240px;
 
 }
 
-Pets .large-logo {
+#Pets .large-logo {
     width: 512px;
     height: 446.92px;
     position: absolute;
-    left: 1561px;
-    top: 6589px;
+    left: 1562px;
+    top: 349px;
    /* background: url(../../assets/Logo_4_3_.svg);*/
     
     opacity: 0.45;
 }
 
-Pets .image {
+#Pets .image {
     position: absolute;
     width: 2064px;
     height: 797px;
-    left: -73px;
-    top: 6240px;
     object-fit: cover;
 
    /* background: url(../../assets/Rectangle\ 2.png);*/

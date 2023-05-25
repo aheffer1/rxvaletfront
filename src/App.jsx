@@ -1,10 +1,11 @@
 import React from "react"
-import { Header, Pets, Footer } from "./components"
+import { Header, Track, Pets, Footer } from "./components"
 
 const App = () => {
   return (
       <div>
         <Header /> 
+        <Track />
         <Pets />
         <Footer />
       </div>
