@@ -1,0 +1,132 @@
+#Discount {
+    position: absolute;
+    width: 1920px;
+    height: 749px;
+    left: 0px;
+    top: 3544px;    
+    background: #FFFFFF;
+}
+
+#Discount .left {
+    position: absolute;
+    width: 628px;
+    height: 394px;
+    left: 187px;
+    top: 178px;
+    background: url(../../assets/Left.svg);
+}
+
+#Discount .right {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 16px;
+    
+    position: absolute;
+    width: 628px;
+    height: 549px;
+    left: 1107px;
+    top: 100px; 
+}
+
+#Discount .header {
+    width: 628px;
+    height: 123px;
+    
+    font-family: 'SF Pro Text';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 61px;
+    
+    /* or 170% */
+    letter-spacing: -0.3px;
+    
+    color: #131A29;
+    
+    
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+}
+#Discount .description {
+    width: 628px;
+    height: 306px;
+
+    top: 139px;
+    
+    font-family: 'SF Pro Text';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 34px;
+    
+    /* or 170% */
+    letter-spacing: -0.3px;
+    
+    color: #656565;
+    
+    
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+}
+#Discount .italics {
+    font-style: italic;
+}
+
+#Discount .ellipse7 {
+    position: absolute;
+    width: 81px;
+    height: 81px;
+    left: 146px;
+    top: 127px;
+    
+    border-radius: 40.5px;
+    background: radial-gradient(106% 106% at 50% 50%, rgba(85, 202, 21, 0.05) 0%, #55CA15 100%);
+}
+#Discount .ellipse8 {
+    position: absolute;
+    width: 41px;
+    height: 41px;
+    left: 629px;
+    top: 457px;
+    
+    border-radius: 20.5px;
+    background: radial-gradient(106% 106% at 50% 50%, rgba(198, 230, 255, 0.23) 0%, #0095FF 100%), radial-gradient(106% 106% at 50% 50%, rgba(198, 230, 255, 0.23) 0%, #0095FF 100%), radial-gradient(106% 106% at 50% 50%, rgba(198, 230, 255, 0.23) 0%, #0095FF 100%);   
+}
+#Discount .ellipse6 {
+    position: absolute;
+    width: 81px;
+    height: 81px;
+    left: 146px;
+    top: 520px;
+    
+    border-radius: 40.5px;
+    background: radial-gradient(106% 106% at 50% 50%, rgba(198, 230, 255, 0.23) 0%, #0095FF 100%), radial-gradient(106% 106% at 50% 50%, rgba(198, 230, 255, 0.23) 0%, #0095FF 100%), radial-gradient(106% 106% at 50% 50%, rgba(198, 230, 255, 0.23) 0%, #0095FF 100%);
+}
+#Discount .ellipse9 {
+    position: absolute;
+    width: 74px;
+    height: 74px;
+    left: 673px;
+    top: 162px;
+    
+    border-radius: 37px;
+    background: radial-gradient(106% 106% at 50% 50%, rgba(31, 101, 197, 0.23) 0%, #1F65C5 100%);
+}
+#Discount .ellipse5 {
+    position: absolute;
+    width: 114px;
+    height: 114px;
+    left: 758px;
+    top: 392px;
+    
+    border-radius: 57px;
+    background: radial-gradient(106% 106% at 50% 50%, rgba(0, 93, 170, 0.23) 0%, #0095FF 100%, #005DAA 100%);
+}

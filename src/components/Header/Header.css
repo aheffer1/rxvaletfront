@@ -1,0 +1,583 @@
+header {
+    position: absolute;
+    width: 1920px;
+    height: 183px;
+    left: 0px;
+    top: 0px;
+    
+    background: #FFFFFF;
+}
+
+header .ellipse1 {
+    position: absolute;
+    left: 82.4%;
+    right: 17.08%;
+    top: 22.95%;
+    bottom: 71.58%;
+    
+    background: #FF0000;
+}
+
+header .menu {
+    box-sizing: border-box;
+
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 32px 0px;
+    gap: 48px;
+    
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 54.64%;
+    bottom: 0%;
+    
+    background: #FFFFFF;
+    border-bottom: 1px solid #E4F4FF;
+}
+
+header .option1 {
+    width: 109px;
+    height: 19px;
+    
+    font-family: 'SF Pro Text';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    
+    /* identical to box height */
+    text-align: center;
+    letter-spacing: -0.3px;
+    text-transform: uppercase;
+    
+    color: #131A29;
+    
+    
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+header .option2 {
+    width: 83px;
+    height: 19px;
+    
+    font-family: 'SF Pro Text';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    
+    /* identical to box height */
+    text-align: center;
+    letter-spacing: -0.3px;
+    text-transform: uppercase;
+    
+    color: #131A29;
+    
+    
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+header .option3 {
+    width: 143px;
+    height: 19px;
+    
+    font-family: 'SF Pro Text';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    
+    /* identical to box height */
+    text-align: center;
+    letter-spacing: -0.3px;
+    text-transform: uppercase;
+    
+    color: #131A29;
+    
+    
+    /* Inside auto layout */
+    flex: none;
+    order: 2;
+    flex-grow: 0; 
+}
+
+
+header .option4 {
+    width: 116px;
+    height: 19px;
+    
+    font-family: 'SF Pro Text';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    
+    /* identical to box height */
+    text-align: center;
+    letter-spacing: -0.3px;
+    text-transform: uppercase;
+    
+    color: #131A29;
+    
+    
+    /* Inside auto layout */
+    flex: none;
+    order: 3;
+    flex-grow: 0;
+}
+
+
+header .option5 {
+    width: 115px;
+    height: 19px;
+    
+    font-family: 'SF Pro Text';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    
+    /* identical to box height */
+    text-align: center;
+    letter-spacing: -0.3px;
+    text-transform: uppercase;
+    
+    color: #131A29;
+    
+    
+    /* Inside auto layout */
+    flex: none;
+    order: 4;
+    flex-grow: 0;   
+}
+
+header .option6 {
+    width: 101px;
+    height: 19px;
+    
+    font-family: 'SF Pro Text';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    
+    /* identical to box height */
+    text-align: center;
+    letter-spacing: -0.3px;
+    text-transform: uppercase;
+    
+    color: #131A29;
+    
+    
+    /* Inside auto layout */
+    flex: none;
+    order: 5;
+    flex-grow: 0; 
+}
+
+header .option7 {
+    width: 128px;
+    height: 19px;
+    
+    font-family: 'SF Pro Text';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    
+    /* identical to box height */
+    text-align: center;
+    letter-spacing: -0.3px;
+    text-transform: uppercase;
+    
+    color: #131A29;
+    
+    
+    /* Inside auto layout */
+    flex: none;
+    order: 6;
+    flex-grow: 0; 
+}
+
+header .option8 {
+    width: 83px;
+    height: 19px;
+    
+    font-family: 'SF Pro Text';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    
+    /* identical to box height */
+    text-align: center;
+    letter-spacing: -0.3px;
+    text-transform: uppercase;
+    
+    color: #131A29;
+    
+    
+    /* Inside auto layout */
+    flex: none;
+    order: 7;
+    flex-grow: 0;
+}
+
+header .option9 {
+    width: 190px;
+    height: 19px;
+    
+    font-family: 'SF Pro Text';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    
+    /* identical to box height */
+    text-align: center;
+    letter-spacing: -0.3px;
+    text-transform: uppercase;
+    
+    color: #131A29;
+    
+    
+    /* Inside auto layout */
+    flex: none;
+    order: 8;
+    flex-grow: 0; 
+}
+
+header .option10 {
+    width: 86px;
+    height: 19px;
+    
+    font-family: 'SF Pro Text';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    
+    /* identical to box height */
+    text-align: center;
+    letter-spacing: -0.3px;
+    text-transform: uppercase;
+    
+    color: #131A29;
+    
+    
+    /* Inside auto layout */
+    flex: none;
+    order: 9;
+    flex-grow: 0;  
+}
+
+header .option11 {
+    width: 86px;
+    height: 19px;
+    
+    font-family: 'SF Pro Text';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    
+    /* identical to box height */
+    text-align: center;
+    letter-spacing: -0.3px;
+    text-transform: uppercase;
+    
+    color: #131A29;
+    
+    
+    /* Inside auto layout */
+    flex: none;
+    order: 9;
+    flex-grow: 0;
+}
+
+
+header .actualheader {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 0px 0px 32px;
+    
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 45.9%;
+    
+    background: #1F65C5;
+}
+
+header .logo {
+    width: 214.74px;
+    height: 48px;
+    
+    
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+
+    background: url(../../assets/white_logo.png);
+
+}
+
+#header .search {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 64px;
+    
+    width: 772px;
+    height: 59px;
+    
+    
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+#header .input {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 16px;
+    gap: 16px;
+    
+    width: 772px;
+    height: 59px;
+    
+    background: #FFFFFF;
+    
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+#header .location {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 16px;
+    
+    width: 123px;
+    height: 19px;
+    
+    
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+#header .line1 {
+    width: 27px;
+    height: 0px;
+    
+    border: 1px solid #E9E9E9;
+    transform: rotate(90deg);
+    
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+#header .searchtext {
+    width: 551px;
+    height: 19px;
+    
+    font-family: 'SF Pro Text';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    
+    /* identical to box height */
+    letter-spacing: -0.3px;
+    
+    color: #989898;
+    
+    
+    /* Inside auto layout */
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+}
+
+#header .right {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    
+    width: 377px;
+    height: 99px;
+    
+    
+    /* Inside auto layout */
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+}
+
+#header .buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 0px;
+    
+    width: 377px;
+    height: 99px;
+    
+    
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+#header .icon-button {
+    box-sizing: border-box;
+
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 40px 20px;
+    
+    width: 68px;
+    height: 99px;
+    
+    background: #1F65C5;
+    
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+#header .basket-shopping {
+    width: 28px;
+    height: 28px;
+    
+    
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+#header .icon {
+    position: absolute;
+    left: 12.5%;
+    right: 12.5%;
+    top: 16.67%;
+    bottom: 16.67%;
+    
+    border: 2px solid #FFFFFF;
+}
+
+#header .whitebutton {
+    box-sizing: border-box;
+
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 40px 40px 40px 20px;
+    
+    width: 119px;
+    height: 99px;
+    
+    background: #1F65C5;
+    
+    /* Inside auto layout */
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+}
+
+#header .signin{
+    width: 59px;
+    height: 19px;
+    
+    font-family: 'SF Pro Text';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    
+    /* identical to box height */
+    text-align: center;
+    letter-spacing: -0.3px;
+    text-transform: uppercase;
+    
+    color: #FFFFFF;
+    
+    
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+#header .bluebutton {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 40px;
+    
+    width: 187px;
+    height: 99px;
+    
+    background: #0095FF;
+    
+    /* Inside auto layout */
+    flex: none;
+    order: 3;
+    flex-grow: 0;
+}
+
+#header .getstarted {
+    width: 107px;
+    height: 19px;
+    
+    font-family: 'SF Pro Text';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    
+    /* identical to box height */
+    text-align: center;
+    letter-spacing: -0.3px;
+    text-transform: uppercase;
+    
+    color: #FFFFFF;
+    
+    
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+

@@ -1,0 +1,154 @@
+#d90 {
+    position: absolute;
+    width: 1920px;
+    height: 1020px;
+    left: 0px;
+    top: 1477px; 
+    background: #FFFFFF
+}
+
+#d90 .right {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 16px;
+    
+    position: absolute;
+    width: 628px;
+    height: 413px;
+    left: 1108px;
+    top: 304px;
+}
+
+#d90 .header {
+    width: 628px;
+    height: 62px;
+    
+    font-family: 'SF Pro Text';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 61px;
+    
+    /* identical to box height, or 170% */
+    letter-spacing: -0.3px;
+    
+    color: #131A29;
+    
+    
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+#d90 .description {
+    width: 628px;
+    height: 170px;
+    
+    font-family: 'SF Pro Text';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 34px;
+    
+    /* or 170% */
+    letter-spacing: -0.3px;
+    
+    color: #656565;
+    
+    
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+#d90 .spacer {
+    width: 336px;
+    height: 8px;
+    
+    background: #FFFFFF;
+    
+    /* Inside auto layout */
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+}
+
+#d90 .button {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 24px;
+    
+    width: 264px;
+    height: 64px;
+    
+    background: #1F65C5;
+    
+    /* Inside auto layout */
+    flex: none;
+    order: 3;
+    flex-grow: 0;
+}
+
+#d90 .button-text {
+    width: 216px;
+    height: 16px;
+    
+    font-family: 'SF Pro Text';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 16px;
+    
+    /* identical to box height, or 100% */
+    text-align: center;
+    letter-spacing: -0.3px;
+    text-transform: uppercase;
+    
+    color: #FFFFFF;
+    
+    
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+#d90 .image1 {
+
+    position: absolute;
+    width: 500px;
+    height: 521px;
+    left: 184px;
+    top: 100px;
+
+    background: url("../../assets/90day2.png");
+    background-repeat: no-repeat;
+
+}
+
+#d90 .image2 {
+
+    position: absolute;
+    width: 621px;
+    height: 431px;
+    left: 339px;
+    top: 489px;
+    
+    background: url("../../assets/90day1.png");
+    background-repeat: no-repeat;
+}
+
+#d90 .rectangle {
+    position: absolute;
+    width: 830px;
+    height: 754px;
+    
+    background: #E4F4FF;
+}

@@ -1,0 +1,148 @@
+#Hero {
+    position: absolute;
+    width: 1920px;
+    height: 754px;
+    left: 0px;
+    top: 183px;
+    background: #E4F4FF;
+}
+
+#Hero .left {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 16px;
+    
+    position: absolute;
+    width: 738px;
+    height: 375px;
+    left: 184px;
+    top: 190px;
+}
+
+#Hero .header {
+    width: 731px;
+    height: 230px;
+    
+    font-family: 'SF Pro Text';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 96px;
+    line-height: 115px;
+    letter-spacing: -0.3px;
+    
+    color: #1F65C5;
+    
+    
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+#Hero .description {
+    width: 738px;
+    height: 57px;
+    
+    font-family: 'SF Pro Text';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 57px;
+    letter-spacing: -0.3px;
+    
+    color: #131A29;
+    
+    
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+#Hero .frame5 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 16px;
+    
+    width: 240px;
+    height: 32px;
+
+    top: 343px;
+    
+    
+    /* Inside auto layout */
+    flex: none;
+    order: 4;
+    flex-grow: 0;
+}
+
+#Hero .play {
+    width: 32px;
+    height: 32px;
+    
+    
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+#Hero .playtext {
+    width: 192px;
+    height: 24px;
+    
+    font-family: 'SF Pro Text';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    
+    /* identical to box height */
+    letter-spacing: -0.3px;
+    text-transform: uppercase;
+    
+    color: #0095FF;
+    
+    
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+#Hero .ellipse4 {
+
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    left: 184px;
+    top: 533px;
+    
+    border: 2px solid #0095FF;
+}
+
+#Hero .icon {
+    position: absolute;
+    left: 540px;
+    top: 191px;
+    
+    background: #0095FF;
+    border: 2px solid #0095FF;
+    border-radius: 2px;
+}
+
+#Hero .image {
+    position: absolute;
+    width: 944px;
+    height: 656px;
+    left: 976px;
+    
+    background: url(../../assets/hands.png);
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+}

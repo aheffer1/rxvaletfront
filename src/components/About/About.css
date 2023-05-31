@@ -1,0 +1,222 @@
+#about {
+    position: absolute;
+    width: 1920px;
+    height: 540px;
+    left: 0px;
+    top: 937px;
+    
+    background: linear-gradient(180deg, rgba(0, 149, 255, 0.2) 0%, rgba(31, 101, 197, 0.2) 100%), linear-gradient(81.17deg, #0095FF 0%, #0095FF 36.17%, #1F65C5 100%);    
+}
+
+#about .left {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 16px;
+    
+    position: absolute;
+    width: 498px;
+    height: 233px;
+    left: 184px;
+    top: 154px;
+}
+
+#about .header {
+    width: 498px;
+    height: 73px;
+    
+    font-family: 'SF Pro Text';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 73px;
+    
+    /* identical to box height, or 203% */
+    letter-spacing: -0.3px;
+    
+    color: #FFFFFF;
+    
+    
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+#about .description {
+    width: 498px;
+    height: 144px;
+    
+    font-family: 'SF Pro Text';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 48px;
+    
+    /* or 200% */
+    letter-spacing: -0.3px;
+    
+    color: #FFFFFF;
+    
+    
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+#about .right {
+    position: absolute;
+    width: 832px;
+    height: 237px;
+    left: 904px;
+    top: 152px;
+}
+
+#about .content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 16px;
+    
+    position: absolute;
+    width: 498px;
+    height: 93px;
+    left: 0px;
+    top: 144px;
+}
+#about .home-delivery {
+    width: 498px;
+    height: 29px;
+    
+    font-family: 'SF Pro Text';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    
+    /* identical to box height */
+    letter-spacing: -0.3px;
+    text-transform: uppercase;
+    
+    color: #FFFFFF;
+    
+    
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+#about .hd-description {
+    width: 498px;
+    height: 48px;
+    
+    font-family: 'SF Pro Text';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 48px;
+    
+    /* identical to box height, or 240% */
+    letter-spacing: -0.3px;
+    
+    color: #FFFFFF;
+    
+    
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+#about .icons {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 32px;
+    
+    position: absolute;
+    width: 832px;
+    height: 112px;
+    left: 0px;
+    top: 0px;
+}
+
+#about .icon1 {
+    width: 112px;
+    height: 112px;
+    
+    
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+
+}
+
+#about .icon2 {
+    width: 112px;
+    height: 112px;
+    
+    
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+
+}
+
+#about .icon3 {
+    width: 112px;
+    height: 112px;
+    
+    
+    /* Inside auto layout */
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+
+}
+
+#about .icon4 {
+    width: 112px;
+    height: 112px;
+    
+    
+    /* Inside auto layout */
+    flex: none;
+    order: 3;
+    flex-grow: 0;
+
+}
+
+#about .icon5 {
+    width: 112px;
+    height: 112px;
+    
+    
+    /* Inside auto layout */
+    flex: none;
+    order: 4;
+    flex-grow: 0;
+
+}
+
+#about .icon6 {
+    width: 112px;
+    height: 112px;
+    
+    
+    /* Inside auto layout */
+    flex: none;
+    order: 5;
+    flex-grow: 0;
+
+}
+
+
+

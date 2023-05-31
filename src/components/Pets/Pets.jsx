@@ -17,9 +17,19 @@ const Pets = () => {
                 <img src={PetLogo} alt="" />
             </div>
             <div className="center">
-              <h1>We care for your Pets too!</h1>
-              Now your fast and furry friends have a benefit too! <br />
-              Rx Valet For Pets is included with your membership at no additional cost. Just login with your Rx Valet username and password and check out our competitive retail and home delivery prices for your pets’ needs.
+              <div className="header">
+                We care for your Pets too!
+              </div>
+              <div className="description">
+                Now your fast and furry friends have a benefit too! <br /> <br />
+                Rx Valet For Pets is included with your membership at no additional cost. Just login with your Rx Valet username and password and check out our competitive retail and home delivery prices for your pets’ needs.
+              </div>
+              <div className="spacer"></div>
+              <div className="button">
+                <div className="button-text">
+                  SEARCH PET MEDS
+                </div>
+              </div>
             </div>
         </div>
       </section>

@@ -1,0 +1,109 @@
+#compare {
+    position: absolute;
+    width: 1920px;
+    height: 1193px;
+    left: 0px;
+    top: 4293px;
+
+    background: #E4F4FF;
+    /*filter: blur(2px);*/
+}
+
+#compare .center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    gap: 32px;
+    
+    position: absolute;
+    width: 1087px;
+    height: 993px;
+    left: 417px;
+    top: 100px;
+}
+
+#compare .header {
+    width: 390px;
+    height: 73px;
+    
+    font-family: 'SF Pro Text';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 73px;
+    
+    /* identical to box height, or 203% */
+    text-align: center;
+    letter-spacing: -0.3px;
+    
+    color: #1F65C5;
+    
+    
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+#compare .table {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    
+    width: 1087px;
+    height: 746px;
+    
+    
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    
+    background: url(../../assets/Table.svg);
+}
+
+#compare .pharmecies-text {
+    width: 1087px;
+    height: 34px;
+    
+    font-family: 'SF Pro Text';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 34px;
+    
+    /* identical to box height, or 170% */
+    text-align: center;
+    letter-spacing: -0.3px;
+    
+    color: #656565;
+    
+    
+    /* Inside auto layout */
+    flex: none;
+    order: 2;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+#compare .pharmecies {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 64px;
+    
+    width: 1082px;
+    height: 44px;
+    /*overflow-x: scroll;*/
+    
+    
+    /* Inside auto layout */
+    flex: none;
+    order: 3;
+    flex-grow: 0;
+
+    background: url(../../assets/pharmacies.png);
+}

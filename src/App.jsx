@@ -1,10 +1,16 @@
 import React from "react"
-import { Header, Track, Pets, Footer } from "./components"
+import { Header, Hero, About, D90, PAP, Discount, Compare, Track, Pets, Footer } from "./components"
 
 const App = () => {
   return (
       <div>
         <Header /> 
+        <Hero />
+        <About />
+        <D90 /> 
+        <PAP />
+        <Discount />
+        <Compare />
         <Track />
         <Pets />
         <Footer />
@@ -14,7 +20,18 @@ const App = () => {
 
 export default App;
 
-/*import { useState } from 'react'
+/*
+        <Header /> 
+        <Hero />
+        <About />
+        <D90 /> 
+        <PAP />
+        <Discount />
+        <Compare />
+        <Track />
+        <Pets />
+        <Footer />
+import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
