@@ -23,6 +23,12 @@ const Discount = () => {
                     Rx Valet is not insurance. Savings based on pharmacy retail price.
                 </div>
             </div>
+            <div className="spacer"></div>
+            <div className='button'>
+              <div className="button-text">
+                Get Discount Card
+              </div>
+            </div>
         </div>
       </section>
     )

@@ -4,7 +4,6 @@ import "./Header.css";
 const Header = () => {
     return (
       <header>
-        <div className="ellipse1"></div>
         <div className="menu">
           <div className='option1'>
             Medications
@@ -25,7 +24,9 @@ const Header = () => {
           <div className='search'>
             <div className='input'>
               <div className='location'>
-                Deliver to 38006
+                <div className='location-text'>
+                  Deliver to 38006
+                </div>
               </div>
               <div className='line1'></div>
               <div className='searchtext'>
@@ -52,6 +53,7 @@ const Header = () => {
               </div>
             </div>
           </div>
+          <div className="ellipse1"></div>
         </div>
       </header>
     )

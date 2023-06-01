@@ -73,8 +73,7 @@
     align-items: flex-start;
     padding: 24px;
     
-    width: 203px;
-    height: 64px;
+    width: fit-content;
     
     background: #0095FF;
     
