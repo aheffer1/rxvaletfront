@@ -31,7 +31,7 @@ a {
 }*/
 
 :root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-family: 'SF Pro Text', Helvetica !important;
   line-height: 1.5;
   font-weight: 400;
 
@@ -44,6 +44,10 @@ a {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
+}
+
+body {
+  font-family: 'SF Pro Text', Helvetica !important;
 }
 
 a {

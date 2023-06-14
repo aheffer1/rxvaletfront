@@ -16,18 +16,19 @@
     padding: 0px;
     gap: 32px;
     
-    position: absolute;
+    position: relative;
     width: 1087px;
     height: 993px;
     left: 417px;
     top: 100px;
+
 }
 
 #compare .header {
     width: 390px;
     height: 73px;
     
-    font-family: 'SF Pro Text';
+    font-family: 'SF Pro Text', Helvetica;
     font-style: normal;
     font-weight: 600;
     font-size: 36px;
@@ -68,7 +69,7 @@
     width: 1087px;
     height: 34px;
     
-    font-family: 'SF Pro Text';
+    font-family: 'SF Pro Text', Helvetica;
     font-style: normal;
     font-weight: 500;
     font-size: 20px;

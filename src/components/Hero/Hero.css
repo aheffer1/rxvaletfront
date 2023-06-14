@@ -25,7 +25,7 @@
     width: 731px;
     height: 230px;
     
-    font-family: 'SF Pro Text';
+    font-family: 'SF Pro Text', Helvetica;
     font-style: normal;
     font-weight: 800;
     font-size: 96px;
@@ -45,7 +45,7 @@
     width: 738px;
     height: 57px;
     
-    font-family: 'SF Pro Text';
+    font-family: 'SF Pro Text', Helvetica;
     font-style: normal;
     font-weight: 800;
     font-size: 48px;
@@ -95,7 +95,7 @@
     width: 192px;
     height: 24px;
     
-    font-family: 'SF Pro Text';
+    font-family: 'SF Pro Text', Helvetica;
     font-style: normal;
     font-weight: 500;
     font-size: 20px;

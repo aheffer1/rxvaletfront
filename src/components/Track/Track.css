@@ -29,7 +29,7 @@
     width: 628px;
     height: 123px;
     
-    font-family: 'SF Pro Text';
+    font-family: 'SF Pro Text', Helvetica;
     font-style: normal;
     font-weight: 600;
     font-size: 36px;
@@ -52,7 +52,7 @@
     width: 628px;
     height: 68px;
     
-    font-family: 'SF Pro Text';
+    font-family: 'SF Pro Text', Helvetica;
     font-style: normal;
     font-weight: 500;
     font-size: 20px;

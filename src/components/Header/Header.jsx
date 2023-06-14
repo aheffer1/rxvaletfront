@@ -4,21 +4,21 @@ import "./Header.css";
 const Header = () => {
     return (
       <header>
-        <div className="menu">
-          <div className='option1'>
-            Medications
+          <div className="menu">
+            <div className='option1'>
+              Medications
+            </div>
+            <div className='option2'>Diabetics</div>
+            <div className='option3'>Women's Health</div>
+            <div className='option4'>Men's Health</div>
+            <div className='option5'>Cholesterol</div>
+            <div className='option6'>Cold Sores</div>
+            <div className='option7'>Birth Control</div>
+            <div className='option8'>Hair Loss</div>
+            <div className='option9'>Erectile Dysfunction</div>
+            <div className='option10'>Pets Care</div>
+            <div className='option11'>Formulary</div>
           </div>
-          <div className='option2'>Diabetics</div>
-          <div className='option3'>Women's Health</div>
-          <div className='option4'>Men's Health</div>
-          <div className='option5'>Cholesterol</div>
-          <div className='option6'>Cold Sores</div>
-          <div className='option7'>Birth Control</div>
-          <div className='option8'>Hair Loss</div>
-          <div className='option9'>Erectile Dysfunction</div>
-          <div className='option10'>Pets Care</div>
-          <div className='option11'>Formulary</div>
-        </div>
         <div className="actualheader">
           <div className="logo"></div>
           <div className='search'>
