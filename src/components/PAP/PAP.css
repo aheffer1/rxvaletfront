@@ -21,7 +21,7 @@
     top: 348px;
 }
 
-#PAP .header {
+#PAP h1 {
     width: 628px;
     height: 62px;
     
@@ -44,7 +44,7 @@
     flex-grow: 0;
 }
 
-#PAP .description {
+#PAP p {
     width: 628px;
     height: 170px;
     

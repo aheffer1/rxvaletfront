@@ -5,13 +5,13 @@ const Hero = () => {
     return (
       <section id="Hero" className="Hero">
         <div className="left">
-            <div className="header">
+            <h1>
                 Best Prices on <br />
                 Medications.
-            </div>
-            <div className="description">
+            </h1>
+            <p>
                 You Choose Your Way to Save!
-            </div>
+            </p>
             <div className="frame5">
                 <div className="play">
                     <div className="playtext">

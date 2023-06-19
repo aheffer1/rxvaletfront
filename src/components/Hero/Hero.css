@@ -21,7 +21,7 @@
     top: 190px;
 }
 
-#Hero .header {
+#Hero h1 {
     width: 731px;
     height: 230px;
     
@@ -41,7 +41,7 @@
     flex-grow: 0;
 }
 
-#Hero .description {
+#Hero p {
     width: 738px;
     height: 57px;
     

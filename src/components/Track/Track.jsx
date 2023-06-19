@@ -19,12 +19,12 @@ const Track = () => {
 
 
           <div className="left">
-            <div className="header">
+            <h1>
               Track your order every step of the way.
-            </div>
-            <div className="description">
+            </h1>
+            <p>
               At Rx Valet, you'll always be in the know. Get the track of order all through your account.
-            </div>
+            </p>
           </div>
         </div>
 

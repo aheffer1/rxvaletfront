@@ -21,7 +21,7 @@
     top: 304px;
 }
 
-#d90 .header {
+#d90 h1 {
     width: 628px;
     height: 62px;
     
@@ -44,7 +44,7 @@
     flex-grow: 0;
 }
 
-#d90 .description {
+#d90 p {
     width: 628px;
     height: 170px;
     

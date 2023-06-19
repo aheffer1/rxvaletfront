@@ -6,12 +6,12 @@ const About = () => {
     return (
       <section id="about" className="about">
         <div className="left">
-            <div className="header">
+            <h1>
                 Why Choose Rx Valet?
-            </div>
-            <div className="description">
+            </h1>
+            <p>
                 Rx Valet is a complete one-stop-shop solution to paying less for high-cost prescription medications!
-            </div>
+            </p>
         </div>
         <div className="right">
             <div className="content">

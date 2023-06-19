@@ -4,21 +4,21 @@ import "./Header.css";
 const Header = () => {
     return (
       <header>
-          <div className="menu">
-            <div className='option1'>
-              Medications
-            </div>
-            <div className='option2'>Diabetics</div>
-            <div className='option3'>Women's Health</div>
-            <div className='option4'>Men's Health</div>
-            <div className='option5'>Cholesterol</div>
-            <div className='option6'>Cold Sores</div>
-            <div className='option7'>Birth Control</div>
-            <div className='option8'>Hair Loss</div>
-            <div className='option9'>Erectile Dysfunction</div>
-            <div className='option10'>Pets Care</div>
-            <div className='option11'>Formulary</div>
-          </div>
+          <nav>
+            <ul>
+              <li><a href="/">Medications</a></li>
+              <li><a href="/">Diabetics</a></li>
+              <li><a href="/">Women's Health</a></li>
+              <li><a href="/">Men's Health</a></li>
+              <li><a href="/">Cholesterol</a></li>
+              <li><a href="/">Cold Sores</a></li>
+              <li><a href="/">Birth Control</a></li>
+              <li><a href="/">Hair Loss</a></li>
+              <li><a href="/">Erectile Dysfunction</a></li>
+              <li><a href="/">Pets Care</a></li>
+              <li><a href="/">Formulary</a></li>
+            </ul>
+          </nav>
         <div className="actualheader">
           <div className="logo"></div>
           <div className='search'>
@@ -41,16 +41,12 @@ const Header = () => {
 
                 </div>
               </div>
-              <div className='whitebutton'>
-                <div className='signin'>
-                  Sign In
-                </div>
-              </div>
-              <div className='bluebutton'>
-                <div className='getstarted'>
-                  Get started
-                </div>
-              </div>
+              <button class="whitebutton">
+                Sign In
+              </button>
+              <button class="bluebutton">
+                Get started
+              </button>
             </div>
           </div>
           <div className="ellipse1"></div>

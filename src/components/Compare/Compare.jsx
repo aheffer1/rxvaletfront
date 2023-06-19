@@ -6,9 +6,9 @@ const Compare = () => {
     return (
       <section id="compare" className="compare">
         <div className="center">
-            <div className="header">
+            <h1>
                 Benefits with Rx Valet
-            </div>
+            </h1>
             <div className="pharmecies-text">
                 Rx Valet is accepted at all of these pharmacies and many more!
             </div>

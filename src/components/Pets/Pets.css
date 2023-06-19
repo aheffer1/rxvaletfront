@@ -71,7 +71,7 @@
     filter: blur(2px);
 }
 
-#Pets .header {
+#Pets h1 {
     width: 762px;
     height: 73px;
     top: 94.38px;
@@ -95,7 +95,7 @@
     flex-grow: 0;
 }
 
-#Pets .description {
+#Pets p {
     width: 762px;
     height: 170px;
     

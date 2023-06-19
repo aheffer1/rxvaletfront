@@ -22,7 +22,7 @@
     top: 154px;
 }
 
-#about .header {
+#about h1 {
     width: 498px;
     height: 73px;
     
@@ -44,7 +44,7 @@
     flex-grow: 0;
 }
 
-#about .description {
+#about p {
     width: 498px;
     height: 144px;
     

@@ -10,19 +10,16 @@ const PAP = () => {
             <div className="image2"></div>
 
           <div className="left">
-            <div className="header">
+            <h1>
                 Prescription Assistance Program
-            </div>
-            <div className="description">
+            </h1>
+            <p>
                 Unable to Afford Your Medication? <br /> <br />
                 Whether you are uninsured or insured with a high deductible, our Prescription Assistance Program provides prescription savings to thousands of hard-working people just like you.
-            </div>
-            <div className="spacer"></div>
-            <div className="button">
-              <div className="button-text">
+            </p>
+            <button class="button">
                 EXPLOPRE PROGRAM
-              </div>
-            </div>
+            </button>
           </div>
       </section>
     )
