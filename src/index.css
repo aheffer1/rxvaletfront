@@ -30,6 +30,31 @@ a {
   text-decoration: none;
 }*/
 
+@font-face {
+  font-family: 'SF Pro Text';
+  src: url(../src/assets/TrueType/SFProText-Medium.ttf);
+}
+
+@font-face {
+  font-family: 'SF Pro Text-Heavy';
+  src: url(../src/assets/TrueType/SFProText-Heavy.ttf);
+}
+
+@font-face {
+  font-family: 'SF Pro Text-Bold';
+  src: url(../src/assets/TrueType/SFProText-Bold.ttf);
+}
+
+@font-face {
+  font-family: 'SF Pro Text-Regular';
+  src: url(../src/assets/TrueType/SFProText-Regular.ttf);
+}
+
+@font-face {
+  font-family: 'SF Pro Text-RegularItalic';
+  src: url(../src/assets/TrueType/SFProText-RegularItalic.ttf);
+}
+
 :root {
   font-family: 'SF Pro Text', Helvetica !important;
   line-height: 1.5;
@@ -67,9 +92,9 @@ body {
   min-height: 100vh;
 }
 
-h1 {
+h1,h2,h3 {
   
-  font-family: 'SF Pro Text', Helvetica;
+  font-family: 'SF Pro Text-Bold', Helvetica;
   font-style: normal;
   font-weight: 600;
   font-size: 36px;
