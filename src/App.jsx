@@ -3,7 +3,7 @@ import { Header, Hero, About, D90, PAP, Discount, Compare, Track, Pets, Footer }
 
 const App = () => {
   return (
-      <div>
+      <>
         <Header /> 
         <Hero />
         <About />
@@ -14,7 +14,7 @@ const App = () => {
         <Track />
         <Pets />
         <Footer />
-      </div>
+      </>
   )
 };
 
