@@ -1,6 +1,5 @@
 #Pets {
 
-    position: absolute;
     width: 2146px;
     height: 797px;
     left: -73px;
@@ -14,7 +13,6 @@
     padding: 0px;
     gap: 16px;
     
-    position: absolute;
     width: 762px;
     height: 457.38px;
     left: 181px;
@@ -24,7 +22,6 @@
 #Pets .overlap-group {
     height: 805px;
     left: 72px;
-    position: absolute;
     top: -4px;
     width: 1921px;
 }
@@ -44,7 +41,7 @@
 }
 
 #Pets .background {
-    position: absolute;
+
     width: 1920px;
     height: 797px;
 

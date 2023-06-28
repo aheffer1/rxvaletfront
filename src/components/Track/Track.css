@@ -1,5 +1,4 @@
 #track {
-    position: absolute;
     width: 1920px;
     height: 754px;
     left: 0px;
@@ -18,7 +17,6 @@
     padding: 0px;
     gap: 16px;
     
-    position: absolute;
     width: 628px;
     height: 207px;
     left: 187px;
@@ -72,8 +70,7 @@
 }
 
 #track .right {
-
-    position: absolute;
+    
     width: 556px;
     height: 477px;
     left: 1128px;

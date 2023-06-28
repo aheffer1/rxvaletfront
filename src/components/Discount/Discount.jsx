@@ -20,9 +20,9 @@ const Discount = () => {
                 Get discounts for every member of your family, including pets! <br /> <br />
                 No expiration. No fees or obligations. No credit card required. Use immediately. <br /> <br />
             </p>
-            <p>
+            <i>
                 Rx Valet is not insurance. Savings based on pharmacy retail price.
-            </p>
+            </i>
             <button class="button">
                 Get Discount Card
             </button>

@@ -1,5 +1,4 @@
 #about {
-    position: absolute;
     width: 1920px;
     height: 540px;
     left: 0px;
@@ -15,7 +14,6 @@
     padding: 0px;
     gap: 16px;
     
-    position: absolute;
     width: 498px;
     height: 233px;
     left: 184px;
@@ -36,13 +34,17 @@
     letter-spacing: -0.3px;
     
     color: #FFFFFF;
-    
-    
-    /* Inside auto layout */
-    flex: none;
-    order: 0;
-    flex-grow: 0;
 }
+
+#about h2 {
+    color: #FFF;
+    font-size: 24px;
+    font-weight: 600;
+    letter-spacing: -0.3px;
+    text-transform: uppercase;
+}
+
+
 
 #about p {
     width: 498px;
@@ -67,7 +69,6 @@
 }
 
 #about .right {
-    position: absolute;
     width: 832px;
     height: 237px;
     left: 904px;
@@ -81,7 +82,6 @@
     padding: 0px;
     gap: 16px;
     
-    position: absolute;
     width: 498px;
     height: 93px;
     left: 0px;
@@ -139,7 +139,6 @@
     padding: 0px;
     gap: 32px;
     
-    position: absolute;
     width: 832px;
     height: 112px;
     left: 0px;

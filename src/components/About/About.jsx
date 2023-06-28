@@ -15,12 +15,12 @@ const About = () => {
         </div>
         <div className="right">
             <div className="content">
-                <div className="home-delivery">
+                <h2>
                     Home Delivery
-                </div>
-                <div className="hd-description">
+                </h2>
+                <i>
                     Free Standard Shipping Affordable Express Delivery
-                </div>
+                </i>
             </div>
             <div className="icons">
                 <img className="icon1" alt='' src={icon1}></img>

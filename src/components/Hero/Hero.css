@@ -1,5 +1,5 @@
 #Hero {
-    position: absolute;
+
     width: 1920px;
     height: 754px;
     left: 0px;
@@ -13,8 +13,7 @@
     align-items: flex-start;
     padding: 0px;
     gap: 16px;
-    
-    position: absolute;
+
     width: 738px;
     height: 375px;
     left: 184px;

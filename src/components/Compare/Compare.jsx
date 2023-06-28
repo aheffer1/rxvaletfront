@@ -14,7 +14,7 @@ const Compare = () => {
             </div>
             <table>
               <tr>
-                <th>Benefits</th>
+                <th>BENEFITS</th>
                 <th>Local Pharmacy</th>
                 <th>Rx Valet</th>
               </tr>

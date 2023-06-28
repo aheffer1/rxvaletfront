@@ -9,7 +9,7 @@ const Pets = () => {
             <img className="image" alt="" src={image}></img>
             <div className="background">
                 <img src={Rectangle3} alt="" />
-            </div>
+             </div>
             <div className="large-logo">
                 <img src={PetLogo2} alt="" />
             </div>
@@ -20,7 +20,7 @@ const Pets = () => {
               <h1>
                 We care for your Pets too!
               </h1>
-              <p>
+             <p>
                 Now your fast and furry friends have a benefit too! <br /> <br />
                 Rx Valet For Pets is included with your membership at no additional cost. Just login with your Rx Valet username and password and check out our competitive retail and home delivery prices for your pets’ needs.
               </p>

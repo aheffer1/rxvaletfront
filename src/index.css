@@ -113,9 +113,8 @@ h1,h2,h3 {
   flex-grow: 0;
 }
 
-p {
+p, i {
   
-  font-family: 'SF Pro Text', Helvetica;
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
@@ -132,6 +131,14 @@ p {
   order: 1;
   align-self: stretch;
   flex-grow: 0;
+}
+
+p {
+  font-family: 'SF Pro Text', Helvetica;
+}
+
+i {
+  font-family: 'SF Pro Text-RegularItalic', Helvetica;
 }
 
 button {

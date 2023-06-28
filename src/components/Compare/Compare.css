@@ -1,5 +1,4 @@
 #compare {
-    position: absolute;
     width: 1920px;
     height: 1193px;
     left: 0px;
@@ -16,7 +15,6 @@
     padding: 0px;
     gap: 32px;
     
-    position: relative;
     width: 1087px;
     height: 993px;
     left: 417px;
@@ -40,6 +38,8 @@
     color: #0095FF;
     text-align: left;
     background: #C8E7FF;
+
+    font-family: 'SF Pro Text-Bold', Helvetica;
 
     font-size: 20px;
     font-weight: 600;

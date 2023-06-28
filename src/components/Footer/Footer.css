@@ -4,322 +4,39 @@ footer {
     left: 0px;
     top: 7037px;
     background: #ffffff;
-    position: absolute;
 
 }
 
-footer .wrapper {
-    position: relative;
-}
-
-footer .contactInfo {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    padding: 0px;
-    gap: 32px;
-
-    position: absolute;
-    left: 185px;
-
-    top: 64px;
-
-}
-
-footer .contactInfo-text {
-    width: 495px;
-    height: 388px;
-
-    font-family: 'SF Pro Text', Helvetica;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 34px;
-
-    /* or 212% */
-    letter-spacing: -0.3px;
-
+footer h1 {
     color: #131A29;
-
-
-    /* Inside auto layout */
-    flex: none;
-    order: 1;
-    flex-grow: 0;
-}
-
-footer .contactInfo-wrapper {
-    color: #131A29;
-    line-height: 34px;
-}
-
-footer .span {
-    color: #656565;
-    line-height: 34px;
-}
-
-footer .contactInfo-wrapper2 {
-    color: #131A29;
-}
-
-footer .contactInfo-text2 {
-
-    font-family: 'SF Pro Text', Helvetica;
-    font-style: normal;
-    font-weight: 500;
     font-size: 16px;
-    line-height: 34px;
-
-    /* or 212% */
-    letter-spacing: -0.3px;
-
-    color: #656565;
-
-
-    /* Inside auto layout */
-    flex: none;
-    order: 1;
-    flex-grow: 0;
-}
-
-footer .product-categories {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    padding: 0px;
-    gap: 32px;
-    
-    position: absolute;
-    left: 713px;
-
-    top: 64px;
-
-}
-
-footer .product-categories-text {
-    width: 495px;
-    height: 186px;
-    
-    font-family: 'SF Pro Text', Helvetica;
-    font-style: normal;
     font-weight: 600;
-    font-size: 16px;
     line-height: 34px;
-    
-    /* or 212% */
-    letter-spacing: -0.3px;
-    
-    color: #131A29;
-    
-    
-    /* Inside auto layout */
-    flex: none;
-    order: 0;
-    flex-grow: 0;
-}
-
-footer .product-categories-wrapper {
-    width: 495px;
-    height: 186px;
-    
-    font-family: 'SF Pro Text', Helvetica;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 16px;
-    line-height: 34px;
-    
-    /* or 212% */
-    letter-spacing: -0.3px;
-    
-    color: #656565;
-    
-    
-    /* Inside auto layout */
-    flex: none;
-    order: 0;
-    flex-grow: 0;
-}
-
-footer .policy-info {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    padding: 0px;
-    gap: 32px;
-
-    position: absolute;
-    left: 713px;
-
-    top: 317px;
-
-}
-
-footer .policy-info-text {
-    width: 495px;
-    height: 152px;
-    
-    font-family: 'SF Pro Text', Helvetica;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 16px;
-    line-height: 34px;
-    
-    /* or 212% */
-    letter-spacing: -0.3px;
-    
-    color: #131A29;
-    
-    
-    /* Inside auto layout */
-    flex: none;
-    order: 0;
-    flex-grow: 0;
-}
-
-footer .policy-info-wrapper {
-    width: 495px;
-    height: 152px;
-    
-    font-family: 'SF Pro Text', Helvetica;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 16px;
-    line-height: 34px;
-    
-    /* or 212% */
-    letter-spacing: -0.3px;
-    
-    color: #656565;
-    
-    
-    /* Inside auto layout */
-    flex: none;
-    order: 0;
-    flex-grow: 0;
-}
-
-
-footer .company {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    padding: 0px;
-    gap: 32px;
-
-    position: absolute;
-    left: 1241px;
-
-    top: 64px;
-
-}
-
-footer .company-text {
-    width: 495px;
-    height: 220px;
-    
-    font-family: 'SF Pro Text', Helvetica;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 16px;
-    line-height: 34px;
-    
-    /* or 212% */
-    letter-spacing: -0.3px;
-    
-    color: #131A29;
-    
-    
-    /* Inside auto layout */
-    flex: none;
-    order: 0;
-    flex-grow: 0;
-}
-
-footer .company-wrapper {
-    width: 495px;
-    height: 220px;
-    
-    font-family: 'SF Pro Text', Helvetica;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 16px;
-    line-height: 34px;
-    
-    /* or 212% */
-    letter-spacing: -0.3px;
-    
-    color: #656565;
-    
-    
-    /* Inside auto layout */
-    flex: none;
-    order: 0;
-    flex-grow: 0;
-}
-
-
-footer .download-app {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    padding: 0px;
-    gap: 16px;
-    
-    position: absolute;
-    
-    left: 1241px;
-
-    top: 317px;
-}
-
-footer .download-app-text {
-    width: 495px;
-    height: 34px;
-
-    font-family: 'SF Pro Text', Helvetica;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 20px;
-    line-height: 34px;
-
-    /* identical to box height, or 170% */
     letter-spacing: -0.3px;
     text-transform: uppercase;
+}
 
+footer ul li {
+    list-style-type: none;
+    width: 495px;
+    height: 186px;
+    
+    font-family: 'SF Pro Text', Helvetica;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 34px;
+    
+    /* or 212% */
+    letter-spacing: -0.3px;
+    
     color: #131A29;
-
-
+    
+    
     /* Inside auto layout */
     flex: none;
     order: 0;
     flex-grow: 0;
-}
-
-footer .frame3 {
-    /* Frame 3 */
-
-    /* Auto layout */
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    padding: 0px;
-    gap: 32px;
-
-    width: 321px;
-    height: 46px;
-
-
-    /* Inside auto layout */
-    flex: none;
-    order: 1;
-    flex-grow: 0;
-}
-
-footer .line3 {
-    position: absolute;
-    left: 185px;
-    top: 564px;
-    width: 1548px;
 }
 
 footer .bottom {
@@ -330,55 +47,8 @@ footer .bottom {
     padding: 0px;
     width: 1548px;
     
-    position: absolute;
     left: 185px;
 
     top: 596px;
 
-}
-
-footer .copyright-text {
-    width: 375px;
-    height: 34px;
-    
-    font-family: 'SF Pro Text', Helvetica;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 34px;
-    
-    /* identical to box height, or 243% */
-    letter-spacing: -0.3px;
-    
-    color: #656565;
-    
-    
-    /* Inside auto layout */
-    flex: none;
-    order: 0;
-    flex-grow: 0;
-}
-
-footer .social-text {
-    width: 258px;
-    height: 34px;
-    
-    font-family: 'SF Pro Text', Helvetica;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 34px;
-    
-    /* identical to box height, or 243% */
-    letter-spacing: -0.3px;
-    text-transform: uppercase;
-    
-    color: #656565;
-    
-    
-    /* Inside auto layout */
-    flex: none;
-    order: 1;
-    flex-grow: 0;
-    left: 1290px;
 }
