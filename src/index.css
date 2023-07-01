@@ -98,19 +98,12 @@ h1,h2,h3 {
   font-style: normal;
   font-weight: 600;
   font-size: 36px;
-  line-height: 61px;
   
   /* or 170% */
   letter-spacing: -0.3px;
   
   color: #131A29;
-  
-  
-  /* Inside auto layout */
-  flex: none;
-  order: 0;
-  align-self: stretch;
-  flex-grow: 0;
+
 }
 
 p, i {
@@ -171,4 +164,4 @@ button:focus-visible {
   button {
     background-color: #f9f9f9;
   }
-}
+} 

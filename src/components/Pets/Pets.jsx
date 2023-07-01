@@ -4,7 +4,7 @@ import {  PetLogo, PetLogo2, image, Rectangle3 } from '../../assets';
 
 const Pets = () => {
     return (
-      <section id="Pets" className="Pets">
+      <section id="Pets">
         <div className="overlap-group">
             <img className="image" alt="" src={image}></img>
             <div className="background">

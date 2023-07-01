@@ -4,7 +4,7 @@ import { icon1, icon2, icon3, icon4, icon5, icon6 } from '../../assets';
 
 const About = () => {
     return (
-      <section id="about" className="about">
+      <section id="about">
         <div className="left">
             <h1>
                 Why Choose Rx Valet?
@@ -14,14 +14,6 @@ const About = () => {
             </p>
         </div>
         <div className="right">
-            <div className="content">
-                <h2>
-                    Home Delivery
-                </h2>
-                <i>
-                    Free Standard Shipping Affordable Express Delivery
-                </i>
-            </div>
             <div className="icons">
                 <img className="icon1" alt='' src={icon1}></img>
                 <img className="icon2" alt='' src={icon2}></img>
@@ -29,6 +21,14 @@ const About = () => {
                 <img className="icon4" alt='' src={icon4}></img>
                 <img className="icon5" alt='' src={icon5}></img>
                 <img className="icon6" alt='' src={icon6}></img>
+            </div>
+            <div className="content">
+                <h2>
+                    Home Delivery
+                </h2>
+                <i>
+                    Free Standard Shipping Affordable Express Delivery
+                </i>
             </div>
         </div>
       </section>

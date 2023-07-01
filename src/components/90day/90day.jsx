@@ -1,13 +1,14 @@
 import React from 'react'
 import "./90day.css";
-import { d901, d902 } from '../../assets';
+import image1 from '../../assets/90day2.png';
+import image2 from '../../assets/90day1.png';
 
 const D90 = () => {
     return (
-      <section id="d90" className="d90">
+      <section id="d90">
             <div className="rectangle"></div>
-            <div className="image1"></div>
-            <div className="image2"></div>
+            <img className="image1" alt='' src={image1}></img>
+            <img className="image2" alt='' src={image2}></img>
 
           <div className="right">
             <h1>

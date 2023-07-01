@@ -4,7 +4,7 @@ import { scribble, receipt, receipt2 } from '../../assets';
 
 const Track = () => {
     return (
-      <section id="track" className="track">
+      <section id="track">
         <div className="wrapper">
 
             <div className="scribble">

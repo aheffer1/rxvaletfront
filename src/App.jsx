@@ -4,16 +4,13 @@ import { Header, Hero, About, D90, PAP, Discount, Compare, Track, Pets, Footer }
 const App = () => {
   return (
       <>
-        <Header /> 
+        <Header />
+        <main>
         <Hero />
         <About />
-        <D90 /> 
-        <PAP />
-        <Discount />
-        <Compare />
-        <Track />
-        <Pets />
-        <Footer />
+        </main>
+
+
       </>
   )
 };
@@ -22,4 +19,11 @@ export default App;
 
 
 /*
-        */
+            <About />
+        <D90 /> 
+        <PAP />
+        <Discount />
+        <Compare />
+        <Track />
+        <Pets />
+        <Footer />    */

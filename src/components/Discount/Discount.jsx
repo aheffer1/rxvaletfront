@@ -4,7 +4,7 @@ import { RxLogo } from '../../assets';
 
 const Discount = () => {
     return (
-      <section id="Discount" className="Discount">
+      <section id="Discount">
         <div className="left"></div>
         <div className="ellipse7"></div>
         <div className="ellipse8"></div>

@@ -4,7 +4,7 @@ import { RxLogo, check, minus } from '../../assets';
 
 const Compare = () => {
     return (
-      <section id="compare" className="compare">
+      <section id="compare">
         <div className="center">
             <h1>
                 Benefits with Rx Valet

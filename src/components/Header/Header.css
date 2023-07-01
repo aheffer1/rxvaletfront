@@ -1,4 +1,90 @@
-header {
+
+header .top-header {
+    background-color: #1f65c5;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header img {
+    padding: 32px;
+}
+
+.search input[type="search"] {
+    background-color: #fff;
+    border: none;
+    padding: 16px;
+    width: 34vw;
+    margin: 16px;
+}
+
+button.btn-secondary {
+    background-color: #1f65c5;
+    color: #fff;
+    padding: 16px;
+    height: 92px;
+}
+
+button.btn-primary {
+    background-color: #0095FF;
+    color: #fff;
+    padding: 16px;
+    height: 92px;
+}
+
+.header-right {
+    display: flex;
+    align-items: center;
+}
+
+.red-dot {
+    position: absolute;
+    background-color: red;
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    top: 32px;
+    right: 40px;
+    z-index: 1;
+}
+
+nav {
+    box-sizing: border-box;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+    z-index: 1000;
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 100px;
+    
+    background: #FFFFFF;
+    border-bottom: 1px solid #E4F4FF;
+}
+
+nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    position: sticky;
+    padding: 24px;
+    gap: 48px;
+}
+
+nav ul li a {
+    font-family: 'SF Pro Text', Helvetica;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    color: #131A29;
+    text-transform: uppercase;
+}
+
+
+
+/*header {
     position: fixed;
     width: 100%;
     height: 183px;
@@ -23,7 +109,7 @@ nav {
     box-sizing: border-box;
 
     /* Auto layout */
-    display: flex;
+ /*   display: flex;
     flex-direction: row;
     justify-content: center;
     
@@ -64,7 +150,7 @@ header .option1 {
     font-size: 16px;
     line-height: 19px;
     
-    /* identical to box height */
+
     text-align: center;
     letter-spacing: -0.3px;
     text-transform: uppercase;
@@ -72,7 +158,7 @@ header .option1 {
     color: #131A29;
     
     
-    /* Inside auto layout */
+
     flex: none;
     order: 0;
     flex-grow: 0;
@@ -116,7 +202,6 @@ header .search {
     height: 59px;
     
     
-    /* Inside auto layout */
     flex: none;
     order: 1;
     flex-grow: 0;
@@ -134,7 +219,7 @@ header .input {
     
     background: #FFFFFF;
     
-    /* Inside auto layout */
+
     flex: none;
     order: 0;
     flex-grow: 0;
@@ -151,7 +236,6 @@ header .location {
     height: 19px;
     
     
-    /* Inside auto layout */
     flex: none;
     order: 0;
     flex-grow: 0;
@@ -167,14 +251,13 @@ header .location-text {
     font-size: 16px;
     line-height: 19px;
     
-    /* identical to box height */
     text-align: center;
     letter-spacing: -0.3px;
     
     color: #131A29;
     
     
-    /* Inside auto layout */
+
     flex: none;
     order: 0;
     flex-grow: 0;
@@ -187,7 +270,6 @@ header .line1 {
     border: 1px solid #E9E9E9;
     transform: rotate(90deg);
     
-    /* Inside auto layout */
     flex: none;
     order: 1;
     flex-grow: 0;
@@ -203,13 +285,10 @@ header .searchtext {
     font-size: 16px;
     line-height: 19px;
     
-    /* identical to box height */
     letter-spacing: -0.3px;
     
     color: #989898;
     
-    
-    /* Inside auto layout */
     flex: none;
     order: 2;
     flex-grow: 0;
@@ -224,8 +303,7 @@ header .right {
     width: 377px;
     height: 99px;
     
-    
-    /* Inside auto layout */
+
     flex: none;
     order: 2;
     flex-grow: 0;
@@ -241,8 +319,7 @@ header .buttons {
     width: 377px;
     height: 99px;
     
-    
-    /* Inside auto layout */
+
     flex: none;
     order: 0;
     flex-grow: 0;
@@ -251,7 +328,6 @@ header .buttons {
 header .icon-button {
     box-sizing: border-box;
 
-    /* Auto layout */
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -261,8 +337,7 @@ header .icon-button {
     height: 99px;
     
     background: #1F65C5;
-    
-    /* Inside auto layout */
+ 
     flex: none;
     order: 0;
     flex-grow: 0;
@@ -271,8 +346,7 @@ header .basket-shopping {
     width: 28px;
     height: 28px;
     
-    
-    /* Inside auto layout */
+
     flex: none;
     order: 0;
     flex-grow: 0;
@@ -293,7 +367,6 @@ header .icon {
 header .whitebutton {
     box-sizing: border-box;
 
-    /* Auto layout */
     display: flex;
     flex-direction: row;
     align-items: flex-start;
@@ -302,8 +375,7 @@ header .whitebutton {
     width: fit-content;
     
     background: #1F65C5;
-    
-    /* Inside auto layout */
+   
     flex: none;
     order: 2;
     flex-grow: 0;
@@ -319,15 +391,12 @@ header .signin{
     font-size: 16px;
     line-height: 19px;
     
-    /* identical to box height */
     text-align: center;
     letter-spacing: -0.3px;
     text-transform: uppercase;
     
     color: #FFFFFF;
     
-    
-    /* Inside auto layout */
     flex: none;
     order: 0;
     flex-grow: 0;
@@ -343,7 +412,6 @@ header .bluebutton {
     
     background: #0095FF;
     
-    /* Inside auto layout */
     flex: none;
     order: 3;
     flex-grow: 0;
@@ -359,15 +427,12 @@ header .getstarted {
     font-size: 16px;
     line-height: 19px;
     
-    /* identical to box height */
     text-align: center;
     letter-spacing: -0.3px;
     text-transform: uppercase;
     
     color: #FFFFFF;
     
-    
-    /* Inside auto layout */
     flex: none;
     order: 0;
     flex-grow: 0;
@@ -377,5 +442,5 @@ header .getstarted {
   position: fixed;
   top: 0;
 }
-
+*/
 

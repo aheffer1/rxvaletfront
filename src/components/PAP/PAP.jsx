@@ -4,7 +4,7 @@ import { pap1, pap2 } from '../../assets';
 
 const PAP = () => {
     return (
-      <section id="PAP" className="PAP">
+      <section id="PAP">
 
             <div className="image1"></div>
             <div className="image2"></div>
