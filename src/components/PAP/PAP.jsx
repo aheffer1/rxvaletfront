@@ -5,10 +5,10 @@ import { pap1, pap2 } from '../../assets';
 const PAP = () => {
     return (
       <section id="PAP">
-
-            <div className="image1"></div>
-            <div className="image2"></div>
-
+          <div className="right">
+              <img className="image1" alt='' src={pap2}></img>
+              <img className="image2" alt='' src={pap1}></img>
+          </div>
           <div className="left">
             <h1>
                 Prescription Assistance Program

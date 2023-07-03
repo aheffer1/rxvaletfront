@@ -6,9 +6,11 @@ import image2 from '../../assets/90day1.png';
 const D90 = () => {
     return (
       <section id="d90">
-            <div className="rectangle"></div>
-            <img className="image1" alt='' src={image1}></img>
-            <img className="image2" alt='' src={image2}></img>
+            <div className="left">
+              <div className="rectangle"></div>
+              <img className="image1" alt='' src={image1}></img>
+              <img className="image2" alt='' src={image2}></img>
+            </div>
 
           <div className="right">
             <h1>

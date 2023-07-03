@@ -1,9 +1,14 @@
 #d90 {
     width: 1920px;
     height: 1020px;
-    left: 0px;
-    top: 1477px; 
     background: #FFFFFF
+}
+
+#d90 .left {
+    width: 776px;
+    height: 820px;
+    flex-shrink: 0;
+    position: relative;
 }
 
 #d90 .right {
@@ -16,8 +21,8 @@
     float: right; 
     width: 628px;
     height: 413px;
-    left: 1108px;
-    top: 304px;
+    margin-top: -600px;
+    margin-right: 184px;
 }
 
 #d90 h1 {
@@ -101,7 +106,6 @@
     left: 184px;
     top: 100px;
 
-    background: url("../../assets/90day2.png");
     background-repeat: no-repeat;
 
 }
@@ -113,8 +117,7 @@
     height: 431px;
     left: 339px;
     top: 489px;
-    
-    background: url("../../assets/90day1.png");
+
     background-repeat: no-repeat;
 }
 

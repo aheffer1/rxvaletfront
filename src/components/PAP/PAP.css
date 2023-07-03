@@ -1,19 +1,26 @@
 #PAP {
-    display: flex;
     flex-direction: column;
     align-items: center;
     width: 100%;
     height: 1047px;
-    background: #FFFFFF;
     float: left;
 }
 
 #PAP .left {
+    display: flex;
+    width: 628px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+    margin-top: -500px;
+    margin-left: 187px;
+}
 
-    width: 100%;
-    min-height: 1px;
-    padding-left: 187px;
-    padding-top: 348px;
+#PAP .right {
+    width: 775px;
+    height: 802.432px;
+    flex-shrink: 0;
+    position: relative;
 }
 
 #PAP p {
@@ -33,8 +40,6 @@
     height: 542px;
     left: 1214px;
     top: 122px;
-    
-    background: url("../../assets/PAP2.png");
 
 }
 
@@ -45,5 +50,4 @@
     left: 960px;
     top: 384px;
 
-    background: url("../../assets/PAP1.png");
 }

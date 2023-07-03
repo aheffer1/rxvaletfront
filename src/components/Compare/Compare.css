@@ -1,8 +1,7 @@
 #compare {
     width: 1920px;
     height: 1193px;
-    left: 0px;
-    top: 4293px;
+
 
     background: #E4F4FF;
     /*filter: blur(2px);*/
@@ -15,10 +14,11 @@
     padding: 0px;
     gap: 32px;
     
+    position: relative;
     width: 1087px;
     height: 993px;
     left: 417px;
-    top: 100px;
+    top: 50px;
 
 }
 

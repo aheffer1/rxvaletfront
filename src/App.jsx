@@ -8,6 +8,9 @@ const App = () => {
         <main>
         <Hero />
         <About />
+        <D90 /> 
+        <PAP />
+        <Compare />
         </main>
 
 
