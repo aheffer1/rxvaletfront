@@ -86,10 +86,6 @@ a:hover {
 
 body {
   margin: 0;
-  /*display: flex;
-  place-items: center;
-  min-width: 320px;
-  min-height: 100vh;*/
 }
 
 h1,h2,h3 {
@@ -117,13 +113,7 @@ p, i {
   letter-spacing: -0.3px;
   
   color: #656565;
-  
-  
-  /* Inside auto layout */
-  flex: none;
-  order: 1;
-  align-self: stretch;
-  flex-grow: 0;
+
 }
 
 p {

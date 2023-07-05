@@ -7,15 +7,17 @@ const Track = () => {
       <section id="track">
         <div className="wrapper">
 
+          <div className="right">
             <div className="scribble">
-              <img src={scribble} alt="" />
-            </div>
-            <div className="receipt">
-              <img src={receipt} alt="" />
-            </div>
-            <div className="receipt2">
-              <img src={receipt2} alt="" />
-            </div>
+                <img src={scribble} alt="" />
+              </div>
+              <div className="receipt">
+                <img src={receipt} alt="" />
+              </div>
+              <div className="receipt2">
+                <img src={receipt2} alt="" />
+              </div>
+          </div>
 
 
           <div className="left">

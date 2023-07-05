@@ -11,6 +11,7 @@ const App = () => {
         <D90 /> 
         <PAP />
         <Compare />
+        <Track />
         </main>
 
 
