@@ -7,13 +7,23 @@ footer {
 
 }
 
-footer h1 {
+footer h1,h2,h3 {
     color: #131A29;
-    font-size: 16px;
+    font-size: 20px;
+    font-style: normal;
     font-weight: 600;
     line-height: 34px;
     letter-spacing: -0.3px;
     text-transform: uppercase;
+}
+
+footer p {
+    color: #131A29;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 34px;
+    letter-spacing: -0.3px;
 }
 
 footer ul li {
@@ -31,12 +41,27 @@ footer ul li {
     letter-spacing: -0.3px;
     
     color: #131A29;
-    
-    
-    /* Inside auto layout */
-    flex: none;
-    order: 0;
-    flex-grow: 0;
+}
+
+footer .left {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 32px;
+}
+
+footer .middle {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 32px;
+}
+
+footer .right {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 32px;
 }
 
 footer .bottom {
@@ -51,4 +76,10 @@ footer .bottom {
 
     top: 596px;
 
+}
+
+footer .download-app {
+    display: flex;
+    align-items: flex-start;
+    gap: 32px;
 }

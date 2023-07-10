@@ -12,7 +12,9 @@ const App = () => {
         <PAP />
         <Compare />
         <Track />
+        <Pets />
         </main>
+        <Footer />
 
 
       </>

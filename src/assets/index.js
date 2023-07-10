@@ -16,7 +16,7 @@ import receipt from "./Receipt.png"
 import receipt2 from "./Receipt 2.png"
 import PetLogo from "./Logo_4_3_.svg";
 import PetLogo2 from "./Logo_4_3_2.svg";
-import image from "./Rectangle 2.png";
+import image from "./Rectangle2.png";
 import Rectangle3 from "./Rectangle 3.svg";
 import android_store_1 from "./android-store 1.png";
 import apple_store_1 from "./apple-store 1.png";
