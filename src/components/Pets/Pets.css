@@ -4,6 +4,7 @@
 }
 
 #Pets .center {
+    float: left;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -39,9 +40,7 @@
     width: 512px;
     height: 446.92px;
     
-    position: absolute;
-    top: 349px;
-    left: 1562px;
+    float: right;
     opacity: 0.45;
 }
 

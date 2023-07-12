@@ -1,18 +1,25 @@
 #Discount {
     width: 1920px;
-    height: 749px;
-    left: 0px;
-    top: 3544px;    
+    height: 749px;  
     background: #FFFFFF;
 }
 
 #Discount .left {
+    position: relative;
     width: 628px;
     height: 394px;
+    margin-left: 187px;
+    margin-top: 178px;
     flex-shrink: 0;
+    float: left;
+    border-radius: 16px;
+    background: linear-gradient(153deg, rgba(0, 149, 255, 0.20) 0%, rgba(228, 244, 255, 0.20) 0.01%, rgba(228, 244, 255, 0.20) 100%), linear-gradient(180deg, rgba(228, 244, 255, 0.19) 0%, #E4F4FF 100%);
 }
 
 #Discount .logo {
+    position: absolute;
+    left: 207px;
+    top: 30px;
     width: 214.737px;
     height: 48px;
     flex-shrink: 0;
@@ -26,6 +33,8 @@
     line-height: 34px;
     letter-spacing: -0.3px;
     text-transform: uppercase;
+
+    margin-top: 110px;
 }
 
 #Discount .details {
@@ -36,7 +45,31 @@
     gap: 16px;
 }
 
+#Discount .frame4 {
+    display: flex;
+    width: 564px;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-left: 32px;
+}
 
+#Discount .section {
+    color: #000;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 34px;
+    letter-spacing: -0.3px;
+}
+
+#Discount .ide {
+    color: #000;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 34px;
+    letter-spacing: -0.3px;
+}
 
 #Discount .card-bottom {
     color: #000;
@@ -46,6 +79,9 @@
     font-weight: 400;
     line-height: 24px;
     letter-spacing: -0.3px;
+
+    margin-top: 32px;
+    margin-left: 26px;
 }
 
 #Discount .right {
@@ -57,33 +93,19 @@
     
     width: 628px;
     height: 549px;
-    left: 1107px;
-    top: 100px; 
+    float: right;
+    margin-right: 185px;
 }
 
 #Discount h1 {
-    width: 628px;
-    height: 123px;
-    
-    font-family: 'SF Pro Text', Helvetica;
+    color: #131A29;
+    font-size: 36px;
     font-style: normal;
     font-weight: 600;
-    font-size: 36px;
-    line-height: 61px;
-    
-    /* or 170% */
+    line-height: 61.2px;
     letter-spacing: -0.3px;
-    
-    color: #131A29;
-    
-    
-    /* Inside auto layout */
-    flex: none;
-    order: 0;
-    align-self: stretch;
-    flex-grow: 0;
 }
-#Discount .description {
+#Discount p {
     width: 628px;
     height: 306px;
 
@@ -100,15 +122,15 @@
     
     color: #656565;
     
-    
-    /* Inside auto layout */
-    flex: none;
-    order: 1;
-    align-self: stretch;
-    flex-grow: 0;
+
 }
 #Discount .italics {
     font-style: italic;
+}
+
+#Discount .line {
+    width: 336px;
+    height: 8px;
 }
 
 #Discount .button {
@@ -167,8 +189,8 @@
     position: absolute;
     width: 81px;
     height: 81px;
-    left: 146px;
-    top: 127px;
+    left: -41px;
+    top: -51px;
     
     border-radius: 40.5px;
     background: radial-gradient(106% 106% at 50% 50%, rgba(85, 202, 21, 0.05) 0%, #55CA15 100%);
@@ -177,8 +199,8 @@
     position: absolute;
     width: 41px;
     height: 41px;
-    left: 629px;
-    top: 457px;
+    left: 442px;
+    top: 279px;
     
     border-radius: 20.5px;
     background: radial-gradient(106% 106% at 50% 50%, rgba(198, 230, 255, 0.23) 0%, #0095FF 100%), radial-gradient(106% 106% at 50% 50%, rgba(198, 230, 255, 0.23) 0%, #0095FF 100%), radial-gradient(106% 106% at 50% 50%, rgba(198, 230, 255, 0.23) 0%, #0095FF 100%);   
@@ -187,8 +209,8 @@
     position: absolute;
     width: 81px;
     height: 81px;
-    left: 146px;
-    top: 520px;
+    left: -41px;
+    top: 342px;
     
     border-radius: 40.5px;
     background: radial-gradient(106% 106% at 50% 50%, rgba(198, 230, 255, 0.23) 0%, #0095FF 100%), radial-gradient(106% 106% at 50% 50%, rgba(198, 230, 255, 0.23) 0%, #0095FF 100%), radial-gradient(106% 106% at 50% 50%, rgba(198, 230, 255, 0.23) 0%, #0095FF 100%);
@@ -197,8 +219,8 @@
     position: absolute;
     width: 74px;
     height: 74px;
-    left: 673px;
-    top: 162px;
+    left: 486px;
+    top: -16px;
     
     border-radius: 37px;
     background: radial-gradient(106% 106% at 50% 50%, rgba(31, 101, 197, 0.23) 0%, #1F65C5 100%);
@@ -207,8 +229,8 @@
     position: absolute;
     width: 114px;
     height: 114px;
-    left: 758px;
-    top: 392px;
+    left: 571px;
+    top: 214px;
     
     border-radius: 57px;
     background: radial-gradient(106% 106% at 50% 50%, rgba(0, 93, 170, 0.23) 0%, #0095FF 100%, #005DAA 100%);

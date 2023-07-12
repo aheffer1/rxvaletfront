@@ -10,6 +10,7 @@ const App = () => {
         <About />
         <D90 /> 
         <PAP />
+        <Discount />
         <Compare />
         <Track />
         <Pets />

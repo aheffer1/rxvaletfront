@@ -8,7 +8,7 @@ const Pets = () => {
             <div className="image">
               <div className="background">
                 <div className="center">
-                        <img className="small-logo" src={PetLogo} alt="" />
+                    <img className="small-logo" src={PetLogo} alt="" />
                     <h1>
                       We care for your Pets too!
                     </h1>
@@ -20,10 +20,10 @@ const Pets = () => {
                         SEARCH PET MEDS
                     </button>
                 </div>
-
+                <img classsName="large-logo" src={PetLogo2} alt="" />
               </div>
-              <img classsName="large-logo" src={PetLogo2} alt="" />
             </div>
+            
       </section>
     )
 };
