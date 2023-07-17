@@ -10,18 +10,18 @@ const Footer = () => {
                         <img src={RxLogo} alt="" />
                     </a>
                     <h1>Address</h1>
-                    <div className="text">1580 Atkinson Road</div>
+                    <p>1580 Atkinson Road</p>
 
                     <h1>Email</h1>
-                    <div className="text">info@myrxvalet.com</div>
+                    <p>info@myrxvalet.com</p>
 
                     <h1>Phone</h1>
-                    <div className="text">1-855-798-2538</div>
+                    <p>1-855-798-2538</p>
                 
                     <h1>Office Hours</h1>
-                    <div className="text">Monday - Thursday: 8:00 AM - 8:00 PM <br />
+                    <p>Monday - Thursday: 8:00 AM - 8:00 PM <br />
                     Friday: 8:00 AM – 7:00 PM (EST)
-                    </div>
+                    </p>
                 </div>
                 <div className="middle">
                     <h1>PRODUCT CATEGORIES</h1>
@@ -55,9 +55,10 @@ const Footer = () => {
                             </a>
                       </div>
                 </div>
+                <div className="line" />
                 <div className="bottom">
-                    <div className="copyright-text">© Copyright 2013-2022 Rx Valet, LLC. All rights reserved.</div>
-                    <div className="social-text">Facebook Instagram Twitter</div>
+                    <div className="bottom-text">© Copyright 2013-2022 Rx Valet, LLC. All rights reserved.</div>
+                    <div className="bottom-text">Facebook Instagram Twitter</div>
                 </div>
     </footer>
   )

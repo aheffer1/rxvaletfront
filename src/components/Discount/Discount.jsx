@@ -20,34 +20,40 @@ const Discount = () => {
             </h2>
             <div className="details">
                 <div className="frame4">
-                    <div className="section">
-                        Member ID :
+                    <div className="part">
+                        <div className="section" style={{width : '130px'}}>
+                            Member ID :
+                        </div>
+                        <div className="ide">
+                            AVCS56789
+                        </div>
                     </div>
-                    <div className="ide">
-                        AVCS56789
-                    </div>
-
-                    <div className="section">
-                        BIN : 
-                    </div>
-                    <div className="ide">
-                        006053
+                    <div className="part">
+                        <div className="section" style={{width : '61px'}}>
+                            BIN : 
+                        </div>
+                        <div className="ide">
+                            006053
+                        </div>
                     </div>
                 </div>
 
                 <div className="frame4">
-                    <div className="section">
-                        PCN:
+                    <div className="part">
+                        <div className="section" style={{width : '130px'}}>
+                            PCN:
+                        </div>
+                        <div className="ide">
+                            MSC
+                        </div>
                     </div>
-                    <div className="ide">
-                        MSC
-                    </div>
-
-                    <div className="section">
-                        Group: 
-                    </div>
-                    <div className="ide">
-                        2009
+                    <div className="part">
+                        <div className="section" style={{width : '87px'}}>
+                            Group: 
+                        </div>
+                        <div className="ide">
+                            2009
+                        </div>
                     </div>
                 </div>
             </div>

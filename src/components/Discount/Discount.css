@@ -52,6 +52,11 @@
     align-items: flex-start;
     margin-left: 32px;
 }
+#Discount .part {
+    display: flex;
+    align-items: flex-start;
+    gap: 16px;
+}
 
 #Discount .section {
     color: #000;

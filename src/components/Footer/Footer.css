@@ -35,6 +35,8 @@ footer .text {
     font-weight: 600;
     font-size: 16px;
     line-height: 34px;
+    margin-bottom: 0px;
+    padding-top: 0px;
     
     letter-spacing: -0.3px;
     
@@ -47,6 +49,7 @@ footer .left {
     align-items: flex-start;
     margin-top: 64px;
     margin-left: 185px;
+    width: 495px;
 }
 
 footer .middle {
@@ -71,14 +74,29 @@ footer .bottom {
     padding: 0px;
     width: 1548px;
     
-    left: 185px;
-
-    top: 596px;
-
+    margin-left: 185px;
+    margin-top: 32px;
 }
 
 footer .download-app {
     display: flex;
     align-items: flex-start;
     gap: 32px;
+}
+
+footer .line {
+    width: 1548px;
+    height: 1px;
+    background: #E9E9E9;
+    margin-left: 185px;
+}
+
+footer .bottom-text {
+    color: #656565;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 34px; /* 242.857% */
+    letter-spacing: -0.3px;
+    text-transform: uppercase;
 }

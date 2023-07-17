@@ -20,9 +20,10 @@ const Pets = () => {
                         SEARCH PET MEDS
                     </button>
                 </div>
-                <img classsName="large-logo" src={PetLogo2} alt="" />
               </div>
+              <img classsName="large-logo" src={PetLogo2} alt="" />
             </div>
+            
             
       </section>
     )
