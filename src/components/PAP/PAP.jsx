@@ -5,6 +5,7 @@ import { pap1, pap2 } from '../../assets';
 const PAP = () => {
     return (
       <section id="PAP">
+        <div className="container">
           <div className="right">
               <img className="image1" alt='' src={pap2}></img>
               <img className="image2" alt='' src={pap1}></img>
@@ -21,6 +22,8 @@ const PAP = () => {
                 EXPLOPRE PROGRAM
             </button>
           </div>
+                      
+        </div>
       </section>
     )
 };

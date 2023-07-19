@@ -28,10 +28,7 @@
 #Discount h2 {
     color: #000;
     font-size: 20px;
-    font-style: normal;
-    font-weight: 600;
     line-height: 34px;
-    letter-spacing: -0.3px;
     text-transform: uppercase;
 
     margin-top: 110px;
@@ -113,21 +110,6 @@
 #Discount p {
     width: 628px;
     height: 306px;
-
-    top: 139px;
-    
-    font-family: 'SF Pro Text', Helvetica;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 34px;
-    
-    /* or 170% */
-    letter-spacing: -0.3px;
-    
-    color: #656565;
-    
-
 }
 #Discount .italics {
     font-style: italic;

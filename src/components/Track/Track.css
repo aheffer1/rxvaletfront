@@ -15,50 +15,24 @@
     padding: 0px;
     gap: 16px;
     
-    width: 628px;
-    height: 207px;
     margin-left: 187px;
 }
 
 #track h1 {
     width: 628px;
     height: 123px;
-    
-    font-family: 'SF Pro Text', Helvetica;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 36px;
+
     line-height: 61px;
-    
-    /* or 170% */
-    letter-spacing: -0.3px;
-    
-    color: #131A29; 
 }
 
 #track p {
     width: 628px;
     height: 68px;
-    
-    font-family: 'SF Pro Text', Helvetica;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 34px;
-    
-    /* or 170% */
-    letter-spacing: -0.3px;
-    
-    color: #656565;
-    
 }
 
 #track .right {
-    
     width: 556px;
     height: 477px;
-    left: 1128px;
-    top: 138px;
     
     margin-bottom: -274px;
 }

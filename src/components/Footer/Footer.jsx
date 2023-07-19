@@ -5,6 +5,7 @@ import { android_store_1, apple_store_1, Line_3, RxLogo } from '../../assets';
 const Footer = () => {
   return (
     <footer>
+        <div className="container">
                 <div className="left">
                     <a href="#" className="logo">
                         <img src={RxLogo} alt="" />
@@ -60,6 +61,7 @@ const Footer = () => {
                     <div className="bottom-text">© Copyright 2013-2022 Rx Valet, LLC. All rights reserved.</div>
                     <div className="bottom-text">Facebook Instagram Twitter</div>
                 </div>
+        </div>
     </footer>
   )
 };

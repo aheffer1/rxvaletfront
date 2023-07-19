@@ -41,8 +41,8 @@
     height: 446.92px;
     position: absolute;
 
-    top: 349px;
-    left: 1562px;
+    bottom: 0;
+    left: 0px;
     
     opacity: 0.45;
 }
@@ -59,16 +59,8 @@
 #Pets h1 {
     width: 762px;
     height: 73px;
-    top: 94.38px;
-    
-    font-family: 'SF Pro Text', Helvetica;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 36px;
+
     line-height: 73px;
-    
-    /* identical to box height, or 203% */
-    letter-spacing: -0.3px;
     
     color: #FFFFFF;
 }
@@ -76,15 +68,6 @@
 #Pets p {
     width: 762px;
     height: 170px;
-    
-    font-family: 'SF Pro Text', Helvetica;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 34px;
-    
-    /* or 170% */
-    letter-spacing: -0.3px;
     
     color: #FFFFFF;
 }

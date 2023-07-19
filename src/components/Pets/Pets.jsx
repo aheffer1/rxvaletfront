@@ -5,6 +5,7 @@ import {  PetLogo, PetLogo2, image, Rectangle3 } from '../../assets';
 const Pets = () => {
     return (
       <section id="Pets">
+        <div className="container">
             <div className="image">
               <div className="background">
                 <div className="center">
@@ -21,9 +22,9 @@ const Pets = () => {
                     </button>
                 </div>
               </div>
-              <img classsName="large-logo" src={PetLogo2} alt="" />
+              <img className="large-logo" src={PetLogo2} alt="" />
             </div>
-            
+          </div>
             
       </section>
     )
