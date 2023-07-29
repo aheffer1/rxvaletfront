@@ -1,9 +1,6 @@
 #compare {
-    width: 1920px;
-    height: 1193px;
-
-
     background: #E4F4FF;
+    padding: 100px 0px;
 }
 
 #compare .center {
@@ -12,23 +9,22 @@
     align-items: center;
     padding: 0px;
     gap: 32px;
-    
-    position: relative;
-    width: 1087px;
-    height: 993px;
-    left: 417px;
-    top: 50px;
-
 }
 
-#compare h1, h2 {
+#compare h2, h2 {
     text-align: center;
     color: #1F65C5;
+    text-transform: none;
 }
+
+#compare em {
+    color: #0095FF;
+}
+
 #compare tr:nth-child(odd){background-color: #FFFFFF4D;}
 
 #compare table {
-    width: 100%;
+    width: 56%;
     border: 1px solid #C8E7FF; 
     border-spacing: 0px;
 }
@@ -64,8 +60,6 @@ th, td {
 
 
 #compare .pharmecies-text {
-    width: 1087px;
-    height: 34px;
     
     font-family: 'SF Pro Text', Helvetica;
     font-style: normal;
@@ -93,9 +87,8 @@ th, td {
     align-items: center;
     padding: 0px;
     gap: 64px;
-    
     width: 1082px;
-    height: 44px;
+    height: 44px; 
     /*overflow-x: scroll;*/
     
     

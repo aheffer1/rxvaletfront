@@ -1,7 +1,7 @@
 #track {
-    width: 1920px;
-    height: 754px;
     background: #ffffff;
+    padding: 100px 0px;
+    padding-bottom: 350px;
 }
 
 #track .wrapper {
@@ -9,42 +9,30 @@
 }
 
 #track .left {
+    width: 50%;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     padding: 0px;
     gap: 16px;
-    
-    margin-left: 187px;
+
 }
 
-#track h1 {
-    width: 628px;
-    height: 123px;
-
+#track h2 {
     line-height: 61px;
 }
 
-#track p {
-    width: 628px;
-    height: 68px;
-}
-
 #track .right {
-    width: 556px;
-    height: 477px;
-    
-    margin-bottom: -274px;
+    width: 50%;
+    position: relative;
 }
 
 #track .receipt {
     box-sizing: border-box;
 
     position: absolute;
-    width: 446px;
-    height: 422px;
-    left: 1128px;
-    top: 194px;
+    right: 346px;
+    top: 55px;
 
     border: 3px solid #C8E7FF;
     border-radius: 16px;
@@ -54,10 +42,8 @@
     box-sizing: border-box;
 
     position: absolute;
-    width: 425px;
-    height: 165px;
-    left: 1259px;
-    top: 139px;
+    right: 236px;
+    top: 0px;
 
     border: 4px solid #C8E7FF;
     border-radius: 16px;
@@ -65,7 +51,7 @@
 
 #track .scribble {
     position: absolute;
-    left: 1592.24px;
-    top: 339.03px;
+    right: 240.72px;
+    top: 200.03px;
 
 }

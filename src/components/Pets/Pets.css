@@ -1,74 +1,65 @@
 #Pets {
-    width: 2146px;
-    height: 797px;
+    padding: 100px 0px;
+}
+
+.h-100 {
+    height: 100vh;
 }
 
 #Pets .center {
-    float: left;
+    width: 50%;
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
-    padding: 0px;
-    gap: 16px;
+    justify-content: center;
     
-    width: 762px;
-    height: 457.38px;
-    padding-left: 181px;
-    padding-top: 239.38px;
-    z-index: 2;
+    position: relative;
+    z-index: 1;
+
+    height: inherit;
 }
 
 #Pets .small-logo {
     width: 96px;
-    height: 78.38px;
-    position: absolute;
-
-    top: 145px;
-    left: 182px;
-}
-
-#Pets .background {
-
-    width: 1920px;
-    height: 797px;
-    position: absolute;
-    background: linear-gradient(180deg, rgba(0, 149, 255, 0.10) 0%, rgba(31, 101, 197, 0.10) 100%), linear-gradient(45deg, rgba(255, 0, 0, 0.60) 0%, rgba(255, 125, 125, 0.60) 50%, rgba(31, 101, 197, 0.60) 100%);
-    z-index: 1;
 }
 
 #Pets .large-logo {
     width: 512px;
     height: 446.92px;
     position: absolute;
-
     bottom: 0;
-    left: 0px;
-    
+    right: 0px;
     opacity: 0.45;
+    z-index: 1;
 }
 
 #Pets .image {
-    width: 2064px;
-    height: 797px;
-    object-fit: cover;
+    width: 100%;
+    height: 100vh;
+    background-image: url(/src/assets/Rectangle2.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
     position: relative;
-
-    background: url(../../assets/Rectangle2.png);
 }
 
-#Pets h1 {
-    width: 762px;
-    height: 73px;
+#Pets .image::before {
+    content: '';
+    background: linear-gradient(180deg, rgba(0, 149, 255, 0.10) 0%, rgba(31, 101, 197, 0.10) 100%), linear-gradient(45deg, rgba(255, 0, 0, 0.60) 0%, rgba(255, 125, 125, 0.60) 50%, rgba(31, 101, 197, 0.60) 100%);
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 0;
+}
 
+#Pets h2 {
     line-height: 73px;
     
     color: #FFFFFF;
 }
 
 #Pets p {
-    width: 762px;
-    height: 170px;
-    
     color: #FFFFFF;
 }
 

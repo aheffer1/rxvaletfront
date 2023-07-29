@@ -1,46 +1,31 @@
-#PAP {
-    flex-direction: column;
-    align-items: center;
-    width: 100%;
-    height: 1047px;
+#pap {
+    padding: 100px 0px;
 }
 
-#PAP .left {
-    display: flex;
-    width: 628px;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 16px;
-    margin-top: -500px;
-    margin-left: 187px;
+#pap .left {
+    width: 50%;
 }
 
-#PAP .right {
-    width: 775px;
-    height: 802.432px;
+#pap .right {
     flex-shrink: 0;
     position: relative;
+    width: 50%;
+    height: 100vh;
 }
 
-#PAP p {
-    width: 628px;
-    height: 170px;
-    
-}
-
-#PAP .button {
+#pap .button {
     padding: 24px;
     background: #0095FF;
 }
 
-#PAP .image1 {
+#pap .image1 {
     position: absolute;
-    left: 1214px;
     top: 122px;
+    right: 0;
 }
 
-#PAP .image2 {
+#pap .image2 {
     position: absolute;
-    left: 960px;
+    right: 263px;
     top: 384px;
 }

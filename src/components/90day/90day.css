@@ -1,36 +1,23 @@
 #d90 {
-    width: 1920px;
-    height: 1020px;
     background: #FFFFFF
 }
 
 #d90 .left {
-    flex-shrink: 0;
+    width: 57%;
     position: relative;
 }
 
 #d90 .right {
+    width: 43%;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     padding: 0px;
     gap: 16px;
-    
-    float: right; 
-    margin-top: -600px;
-    margin-right: 184px;
 }
 
-#d90 h1 {
-    width: 628px;
-    height: 62px;
-
+#d90 h2 {
     line-height: 61px;
-}
-
-#d90 p {
-    width: 628px;
-    height: 170px;
 }
 
 #d90 .button {

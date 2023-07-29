@@ -1,22 +1,18 @@
-#Discount {
-    width: 1920px;
-    height: 749px;  
+#discount {
     background: #FFFFFF;
+    padding: 100px 0px;
 }
 
-#Discount .left {
+#discount .left {
     position: relative;
     width: 628px;
     height: 394px;
-    margin-left: 187px;
-    margin-top: 178px;
     flex-shrink: 0;
-    float: left;
     border-radius: 16px;
     background: linear-gradient(153deg, rgba(0, 149, 255, 0.20) 0%, rgba(228, 244, 255, 0.20) 0.01%, rgba(228, 244, 255, 0.20) 100%), linear-gradient(180deg, rgba(228, 244, 255, 0.19) 0%, #E4F4FF 100%);
 }
 
-#Discount .logo {
+#discount .logo {
     position: absolute;
     left: 207px;
     top: 30px;
@@ -25,16 +21,21 @@
     flex-shrink: 0;
 }
 
-#Discount h2 {
+#discount h2 {
+    line-height: 61.2px;
+}
+
+#discount h3 {
     color: #000;
     font-size: 20px;
     line-height: 34px;
     text-transform: uppercase;
 
+    text-align: center;
     margin-top: 110px;
 }
 
-#Discount .details {
+#discount .details {
     display: flex;
     width: 564px;
     flex-direction: column;
@@ -42,20 +43,20 @@
     gap: 16px;
 }
 
-#Discount .frame4 {
+#discount .frame4 {
     display: flex;
     width: 564px;
     justify-content: space-between;
     align-items: flex-start;
     margin-left: 32px;
 }
-#Discount .part {
+#discount .part {
     display: flex;
     align-items: flex-start;
     gap: 16px;
 }
 
-#Discount .section {
+#discount .section {
     color: #000;
     font-size: 20px;
     font-style: normal;
@@ -64,7 +65,7 @@
     letter-spacing: -0.3px;
 }
 
-#Discount .ide {
+#discount .ide {
     color: #000;
     font-size: 20px;
     font-style: normal;
@@ -73,7 +74,7 @@
     letter-spacing: -0.3px;
 }
 
-#Discount .card-bottom {
+#discount .card-bottom {
     color: #000;
     font-size: 14px;
     font-family: "SF Pro Text", Helvetica;
@@ -86,20 +87,16 @@
     margin-left: 26px;
 }
 
-#Discount .right {
+#discount .right {
+    width: 40%;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     padding: 0px;
     gap: 16px;
-    
-    width: 628px;
-    height: 549px;
-    float: right;
-    margin-right: 185px;
 }
 
-#Discount h1 {
+#discount h1 {
     color: #131A29;
     font-size: 36px;
     font-style: normal;
@@ -107,20 +104,20 @@
     line-height: 61.2px;
     letter-spacing: -0.3px;
 }
-#Discount p {
+#discount p {
     width: 628px;
     height: 306px;
 }
-#Discount .italics {
+#discount .italics {
     font-style: italic;
 }
 
-#Discount .line {
+#discount .line {
     width: 336px;
     height: 8px;
 }
 
-#Discount .button {
+#discount .button {
     display: flex;
     flex-direction: row;
     align-items: flex-start;
@@ -136,7 +133,7 @@
     flex-grow: 0;
 }
 
-#Discount .button-text {
+#discount .button-text {
     width: 166px;
     height: 16px;
     
@@ -160,7 +157,7 @@
     flex-grow: 0;
 }
 
-#Discount .spacer {
+#discount .spacer {
     width: 336px;
     height: 8px;
     
@@ -172,7 +169,7 @@
     flex-grow: 0;
 }
 
-#Discount .ellipse7 {
+#discount .ellipse7 {
     position: absolute;
     width: 81px;
     height: 81px;
@@ -182,7 +179,7 @@
     border-radius: 40.5px;
     background: radial-gradient(106% 106% at 50% 50%, rgba(85, 202, 21, 0.05) 0%, #55CA15 100%);
 }
-#Discount .ellipse8 {
+#discount .ellipse8 {
     position: absolute;
     width: 41px;
     height: 41px;
@@ -192,7 +189,7 @@
     border-radius: 20.5px;
     background: radial-gradient(106% 106% at 50% 50%, rgba(198, 230, 255, 0.23) 0%, #0095FF 100%), radial-gradient(106% 106% at 50% 50%, rgba(198, 230, 255, 0.23) 0%, #0095FF 100%), radial-gradient(106% 106% at 50% 50%, rgba(198, 230, 255, 0.23) 0%, #0095FF 100%);   
 }
-#Discount .ellipse6 {
+#discount .ellipse6 {
     position: absolute;
     width: 81px;
     height: 81px;
@@ -202,7 +199,7 @@
     border-radius: 40.5px;
     background: radial-gradient(106% 106% at 50% 50%, rgba(198, 230, 255, 0.23) 0%, #0095FF 100%), radial-gradient(106% 106% at 50% 50%, rgba(198, 230, 255, 0.23) 0%, #0095FF 100%), radial-gradient(106% 106% at 50% 50%, rgba(198, 230, 255, 0.23) 0%, #0095FF 100%);
 }
-#Discount .ellipse9 {
+#discount .ellipse9 {
     position: absolute;
     width: 74px;
     height: 74px;
@@ -212,7 +209,7 @@
     border-radius: 37px;
     background: radial-gradient(106% 106% at 50% 50%, rgba(31, 101, 197, 0.23) 0%, #1F65C5 100%);
 }
-#Discount .ellipse5 {
+#discount .ellipse5 {
     position: absolute;
     width: 114px;
     height: 114px;

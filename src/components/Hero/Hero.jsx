@@ -45,10 +45,10 @@ const Hero = () => {
   <div className='container'> 
             <div className='row'>
                 <div className="left">
-                    <h1>
+                    <h2>
                         Best Prices on <br />
                         Medications.
-                    </h1>
+                    </h2>
                     <h2>
                         You Choose Your Way to Save!
                     </h2>
@@ -74,10 +74,10 @@ const Hero = () => {
             <img src={Hands} alt="Hands" />
         </div>
         <div className="left">
-            <h1>
+            <h2>
                 Best Prices on <br />
                 Medications.
-            </h1>
+            </h2>
             <h2>
                 You Choose Your Way to Save!
             </h2>

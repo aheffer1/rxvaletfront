@@ -7,9 +7,9 @@ const Compare = () => {
       <section id="compare">
         <div className="container">
           <div className="center">
-              <h1>
-                  Benefits with Rx Valet
-              </h1>
+              <h2>
+                  Benefits with <em>Rx Valet</em>
+              </h2>
               <div className="pharmecies-text">
                   Rx Valet is accepted at all of these pharmacies and many more!
               </div>
